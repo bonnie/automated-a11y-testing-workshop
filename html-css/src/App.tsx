@@ -25,7 +25,7 @@ function App() {
           src="/ceo.png"
         />
         <div className="section__quotation section__text--md">
-          Here at Health for Life, we care about both your health
+          Here at Health for Life, we care about both your health&nbsp;
           <span className="section__text--emphasis">and</span> your life.
           <p className="section__quotation--attribution">
             - Sandra Williams, CEO
