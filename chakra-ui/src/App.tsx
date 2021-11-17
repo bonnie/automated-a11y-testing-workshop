@@ -114,7 +114,7 @@ function App() {
           </Text>
         </VStack>
       </Box>
-      <Box as="section" id="join-us">
+      <Box as="section" id="join-us" bg="brand.900" color="brand.200">
         <Heading>Join Us!</Heading>
         <Stack direction="column" spacing={3}>
           <FormControl id="email">

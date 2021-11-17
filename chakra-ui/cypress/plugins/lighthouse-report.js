@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 const writeLighthouseA11yReport = (report) => {
   // don't create a report if there were no violations
   if (report.artifacts.Accessibility.violations.length === 0) return;
@@ -31,9 +33,11 @@ const writeLighthouseA11yReport = (report) => {
 
   fs.writeFile(fileName, reportString, (err) => {
     if (err) {
-      console.err("--- ERROR: could not write lighthouse report:", err);
+      console.log("--- ERROR: could not write lighthouse report:", err);
     } else {
       console.log("--- INFO: wrote report to", fileName);
     }
   });
 };
+
+module.exports = writeLighthouseA11yReport;
