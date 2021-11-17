@@ -31,7 +31,7 @@ function App() {
           mb="-10.8vw"
           alignSelf="flex-end"
           zIndex={10}
-          alt="Health for Life logo"
+          alt="Health for Life"
           src="/logo.svg"
         />
         <Image
@@ -58,7 +58,7 @@ function App() {
           mr={3}
           width="30vw"
           maxWidth="400px"
-          alt="photo of Health for Life CEO"
+          alt="Health for Life CEO"
           src="/ceo.png"
         />
         <Flex direction="column">

@@ -1,7 +1,8 @@
 import { render } from "@testing-library/react";
-import { axe, toHaveNoViolations } from "jest-axe";
+import { toHaveNoViolations } from "jest-axe";
 import React from "react";
 
+import axe from "../axe-helper";
 import App from "./App";
 
 expect.extend(toHaveNoViolations);
