@@ -19,7 +19,7 @@ export const theme = extendTheme({
   },
   colors: {
     brand: {
-      100: "#ffb380",
+      100: "#fff0e5",
       200: "#ffdec8",
       600: "#c64f00",
       700: "#b34700",
