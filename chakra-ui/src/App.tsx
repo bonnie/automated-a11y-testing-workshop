@@ -31,6 +31,7 @@ function App() {
           mb="-10.8vw"
           alignSelf="flex-end"
           zIndex={10}
+          alt="Health for Life logo"
           src="/logo.svg"
         />
         <Image
@@ -124,8 +125,8 @@ function App() {
             <FormLabel>Full Name</FormLabel>
             <Input />
           </FormControl>
-          <FormLabel>Region</FormLabel>
           <FormControl id="region">
+            <FormLabel>Region</FormLabel>
             <Select id="region" name="region">
               <option>Africa</option>
               <option>Asia</option>
