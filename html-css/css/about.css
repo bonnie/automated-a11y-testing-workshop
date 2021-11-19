@@ -68,6 +68,7 @@
   }
   .section__quotation--testimonial {
     width: 25vw;
+    max-width: 290px;
   }
   .section__divider {
     width: 0.2em;
