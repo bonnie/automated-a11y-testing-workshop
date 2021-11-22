@@ -31,6 +31,7 @@ function App() {
           mb="-10.8vw"
           alignSelf="flex-end"
           zIndex={10}
+          alt="Health for Life"
           src="/logo.svg"
         />
         <Image
@@ -57,7 +58,7 @@ function App() {
           mr={3}
           width="30vw"
           maxWidth="400px"
-          alt="photo of Health for Life CEO"
+          alt="Health for Life CEO"
           src="/ceo.png"
         />
         <Flex direction="column">
@@ -98,7 +99,7 @@ function App() {
       <Box as="section" id="testimonials">
         <Heading>Testimonials</Heading>
         <VStack
-          divider={<StackDivider borderColor="brand.600" role="hidden" />}
+          divider={<StackDivider borderColor="brand.600" aria-hidden="true" />}
           alignItems="flex-start"
         >
           <Text variant="quotation">
@@ -124,8 +125,8 @@ function App() {
             <FormLabel>Full Name</FormLabel>
             <Input />
           </FormControl>
-          <FormLabel>Region</FormLabel>
           <FormControl id="region">
+            <FormLabel>Region</FormLabel>
             <Select id="region" name="region">
               <option>Africa</option>
               <option>Asia</option>
@@ -136,7 +137,9 @@ function App() {
             </Select>
           </FormControl>
         </Stack>
-        <Button colorScheme="brand">Sign Up for Mailing List</Button>
+        <Button colorScheme="brand" bg="brand.900" color="brand.100">
+          Sign Up for Mailing List
+        </Button>
       </Box>
     </Stack>
   );

@@ -1,0 +1,12 @@
+==============================================
+Issue 1
+color-contrast
+impact: serious
+tags: cat.color,wcag2aa,wcag143
+	Node 1
+		target: button
+		failureSummary: Fix any of the following:
+  Element has insufficient color contrast of 3.14 (foreground color: #ffb380, background color: #b34700, font size: 14.4pt (19.2px), font weight: normal). Expected contrast ratio of 4.5:1
+		snippet: <button type="submit" class="button">
+		label: Sign Up for Mailing List
+

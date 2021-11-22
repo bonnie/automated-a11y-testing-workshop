@@ -11,7 +11,7 @@ function App() {
         className="section section--splash"
         aria-label="Health for Life Splash Image"
       >
-        <img className="img--hfl" src="/logo.svg" />
+        <img className="img--hfl" alt="Health for Life" src="/logo.svg" />
         <img
           className="img--box-shadow img--splash"
           alt="silhouettes of children jumping against a sunset background"
@@ -21,7 +21,7 @@ function App() {
       <section id="ceo-message" className="section section--ceo-message">
         <img
           className="img--border img--round img--ceo"
-          alt="photo of Health for Life CEO"
+          alt="Health for Life CEO"
           src="/ceo.png"
         />
         <div className="section__quotation section__text--md">
@@ -49,7 +49,7 @@ function App() {
       <section id="testimonials" className="section">
         <h2>Testimonials</h2>
         <div className="section__container--testimonials">
-          <div className="section__divider" role="hidden" />
+          <div className="section__divider" aria-hidden="true" />
           <div className="section__quotation section__quotation--testimonial">
             I appreciate the concern for my life, in addition to my health.
           </div>
@@ -82,9 +82,10 @@ function App() {
               <input id="full-name" name="full name" />
             </label>
           </div>
-          <label className="form__label"></label>
           <div className="form__input">
-            Region
+            <label className="form__label" htmlFor="region">
+              Region
+            </label>
             <br />
             <select id="region" name="region">
               <option>Africa</option>
