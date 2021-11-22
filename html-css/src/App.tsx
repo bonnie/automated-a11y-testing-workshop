@@ -82,19 +82,18 @@ function App() {
               <input id="full-name" name="full name" />
             </label>
           </div>
+          <label className="form__label"></label>
           <div className="form__input">
-            <label className="form__label">
-              Region
-              <br />
-              <select id="region" name="region">
-                <option>Africa</option>
-                <option>Asia</option>
-                <option>Australia</option>
-                <option>Europe</option>
-                <option>North America</option>
-                <option>South America</option>
-              </select>
-            </label>
+            Region
+            <br />
+            <select id="region" name="region">
+              <option>Africa</option>
+              <option>Asia</option>
+              <option>Australia</option>
+              <option>Europe</option>
+              <option>North America</option>
+              <option>South America</option>
+            </select>
           </div>
         </div>
         <button type="submit" className="button">
